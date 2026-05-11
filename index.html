@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="./images/1.png">
+<title>محمد شحاته | Mohamed Shahata</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <button class="ctrl-btn" onclick="toggleLang()">
+    <span>🌐</span>
+    <span id="langLabel">English</span>
+  </button>
+  <button class="ctrl-btn" onclick="toggleTheme()">
+    <span id="themeIcon">☀️</span>
+    <span id="themeLabel">فاتح</span>
+  </button>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <div class="nav-logo"><span class="logo-sign">🤟</span> M.S</div>
+  <ul class="nav-links">
+    <li><a href="#about" data-ar="عني" data-en="About">عني</a></li>
+    <li><a href="#projects" data-ar="أعمالي" data-en="Projects">أعمالي</a></li>
+    <li><a href="#skills" data-ar="مهاراتي" data-en="Skills">مهاراتي</a></li>
+    <li><a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-img-right">
+    <img src="1.png" alt="Mohamed Shahata">
+  </div>
+  <div class="hero-content">
+    <div class="hero-tag">
+      <span>🤟</span>
+      <span data-ar="مترجم لغة إشارة معتمد" data-en="Certified Sign Language Interpreter">مترجم لغة إشارة معتمد</span>
+    </div>
+    <h1 class="hero-name">
+      <span data-ar="محمد" data-en="Mohamed">محمد</span><br>
+      <span class="gold" data-ar="شحاته" data-en="Shahata">شحاته</span>
+    </h1>
+    <p class="hero-title" data-ar="مترجم لغة الإشارة المصرية — خبرة منذ 2017 — معتمد محلياً ودولياً — المترجم المسؤول بجمعية الصم بالشرقية" data-en="Egyptian Sign Language Interpreter — Active since 2017 — Locally & Internationally Certified — Lead Interpreter at Al-Sharqia Deaf Association">
+      مترجم لغة الإشارة المصرية — خبرة منذ 2017 — معتمد محلياً ودولياً — المترجم المسؤول بجمعية الصم بالشرقية
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">+8</span>
+        <span class="stat-label" data-ar="سنوات خبرة" data-en="Years Experience">سنوات خبرة</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">2017</span>
+        <span class="stat-label" data-ar="بداية المسيرة" data-en="Career Start">بداية المسيرة</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">+50</span>
+        <span class="stat-label" data-ar="فعالية مكتملة" data-en="Events Completed">فعالية مكتملة</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span data-ar="اكتشف" data-en="Scroll">اكتشف</span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <p class="section-label" data-ar="من أنا" data-en="About Me">من أنا</p>
+    <h2 class="section-title" data-ar="جسر بين عالمين" data-en="A Bridge Between Two Worlds">جسر بين عالمين</h2>
+  </div>
+  <div class="about-grid">
+    <p class="about-text reveal" data-ar="<strong>محمد شحاته</strong> مترجم لغة إشارة مصرية معتمد، بدأ مسيرته المهنية منذ عام <strong>2017</strong>. يشغل منصب المترجم المسؤول داخل <strong>جمعية الصم بالشرقية</strong>، وحصل على اعتماد من <strong>جمعيات داخل مصر وخارجها</strong>.<br><br>شارك في فعاليات متنوعة على أعلى المستويات: مؤتمرات، معارض دولية، برامج تلفزيونية، جلسات سياسية، وورش تدريبية — ليصبح أحد أبرز وجوه الترجمة بلغة الإشارة في مصر." data-en="<strong>Mohamed Shahata</strong> is a certified Egyptian Sign Language interpreter who began his professional journey in <strong>2017</strong>. He serves as the lead interpreter at <strong>Al-Sharqia Deaf Association</strong> and holds certifications from <strong>associations both inside and outside Egypt</strong>.<br><br>He has participated in high-profile events at the highest levels: conferences, international fairs, television programs, political sessions, and training workshops — establishing himself as one of Egypt's most prominent sign language interpreters.">
+      <strong>محمد شحاته</strong> مترجم لغة إشارة مصرية معتمد، بدأ مسيرته المهنية منذ عام <strong>2017</strong>. يشغل منصب المترجم المسؤول داخل <strong>جمعية الصم بالشرقية</strong>، وحصل على اعتماد من <strong>جمعيات داخل مصر وخارجها</strong>.<br><br>شارك في فعاليات متنوعة على أعلى المستويات: مؤتمرات، معارض دولية، برامج تلفزيونية، جلسات سياسية، وورش تدريبية — ليصبح أحد أبرز وجوه الترجمة بلغة الإشارة في مصر.
+    </p>
+    <div class="certif-list reveal">
+      <div class="certif-item">
+        <span class="certif-icon">🏅</span>
+        <div class="certif-text">
+          <strong data-ar="معتمد — جمعيات مصرية" data-en="Certified — Egyptian Associations">معتمد — جمعيات مصرية</strong>
+          <span data-ar="اعتماد رسمي من جمعيات الصم داخل مصر" data-en="Official certification from deaf associations in Egypt">اعتماد رسمي من جمعيات الصم داخل مصر</span>
+        </div>
+      </div>
+      <div class="certif-item">
+        <span class="certif-icon">🌍</span>
+        <div class="certif-text">
+          <strong data-ar="معتمد — جمعيات دولية" data-en="Certified — International Associations">معتمد — جمعيات دولية</strong>
+          <span data-ar="اعتماد من جمعيات خارج مصر" data-en="Certification from associations outside Egypt">اعتماد من جمعيات خارج مصر</span>
+        </div>
+      </div>
+      <div class="certif-item">
+        <span class="certif-icon">👐</span>
+        <div class="certif-text">
+          <strong data-ar="المترجم المسؤول — جمعية الصم بالشرقية" data-en="Lead Interpreter — Al-Sharqia Deaf Assoc.">المترجم المسؤول — جمعية الصم بالشرقية</strong>
+          <span data-ar="منذ بداية مسيرته المهنية" data-en="Since the start of his professional career">منذ بداية مسيرته المهنية</span>
+        </div>
+      </div>
+      <div class="certif-item">
+        <span class="certif-icon">📅</span>
+        <div class="certif-text">
+          <strong data-ar="+8 سنوات خبرة مهنية" data-en="+8 Years Professional Experience">+8 سنوات خبرة مهنية</strong>
+          <span data-ar="مسيرة احترافية متواصلة منذ 2017" data-en="Continuous professional career since 2017">مسيرة احترافية متواصلة منذ 2017</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="reveal">
+    <p class="section-label" data-ar="الفعاليات والمشاريع" data-en="Events & Projects">الفعاليات والمشاريع</p>
+    <h2 class="section-title" data-ar="أبرز أعمالي" data-en="Featured Work">أبرز أعمالي</h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="2.jpeg" alt="Cairo 24" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="إعلام" data-en="Media">إعلام</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="تصدر التريند — القاهرة 24" data-en="Trending Feature — Cairo 24">تصدر التريند — القاهرة 24</h3>
+        <p class="project-desc" data-ar="أول تعليق لمترجم لغة إشارة على عقد قران شاب من ذوي الإعاقة السمعية بالشرقية — تصدّر التريند على مستوى مصر" data-en="First sign language interpreter commentary on a hearing-impaired man's marriage contract in Al-Sharqia — trended nationally across Egypt">أول تعليق لمترجم لغة إشارة على عقد قران شاب من ذوي الإعاقة السمعية بالشرقية — تصدّر التريند على مستوى مصر</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="3.jpeg" alt="Cairo Book Fair" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="ثقافة" data-en="Culture">ثقافة</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="معرض القاهرة الدولي للكتاب — الدورة 55" data-en="Cairo International Book Fair — 55th Edition">معرض القاهرة الدولي للكتاب — الدورة 55</h3>
+        <p class="project-desc" data-ar="ترجمة إشارية رسمية في أحد أبرز الفعاليات الثقافية بالعالم العربي — يناير–فبراير 2024" data-en="Official sign language interpretation at one of the Arab world's premier cultural events — January–February 2024">ترجمة إشارية رسمية في أحد أبرز الفعاليات الثقافية بالعالم العربي — يناير–فبراير 2024</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="4.jpeg" alt="Rotary" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="مؤتمرات" data-en="Conferences">مؤتمرات</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="فعالية Rotary — Unite For Good" data-en="Rotary Event — Unite For Good">فعالية Rotary — Unite For Good</h3>
+        <p class="project-desc" data-ar="ترجمة إشارية على المسرح الرئيسي لمؤتمر روتاري الدولي تحت شعار «اتحاد من أجل الخير»" data-en="Live stage interpretation at a Rotary International conference under the banner 'Unite for Good'">ترجمة إشارية على المسرح الرئيسي لمؤتمر روتاري الدولي تحت شعار «اتحاد من أجل الخير»</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="5.jpeg" alt="Al-Nahar TV" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="تلفزيون" data-en="Television">تلفزيون</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="قناة النهار" data-en="Al-Nahar TV">قناة النهار</h3>
+        <p class="project-desc" data-ar="ضيف وحضور إعلامي على قناة النهار، إحدى كبرى القنوات التلفزيونية المصرية" data-en="Guest appearance and media presence on Al-Nahar, one of Egypt's leading television channels">ضيف وحضور إعلامي على قناة النهار، إحدى كبرى القنوات التلفزيونية المصرية</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="6.jpeg" alt="UAE Workshop" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="خليجي" data-en="Gulf">خليجي</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="ورشة عمل — الإمارات العربية المتحدة" data-en="Workshop — United Arab Emirates">ورشة عمل — الإمارات العربية المتحدة</h3>
+        <p class="project-desc" data-ar="ترجمة إشارية في ورشة عمل تدريبية بالإمارات، ضمن توسيع نطاق عمله على المستوى الدولي" data-en="Sign language interpretation for a training workshop in the UAE, expanding his work to the international level">ترجمة إشارية في ورشة عمل تدريبية بالإمارات، ضمن توسيع نطاق عمله على المستوى الدولي</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="7.jpeg" alt="NTRA" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="تدريب" data-en="Training">تدريب</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="الجهاز القومي لتنظيم الاتصالات NTRA" data-en="NTRA — National Telecom Reg. Authority">الجهاز القومي لتنظيم الاتصالات NTRA</h3>
+        <p class="project-desc" data-ar="دورة تدريبية لتعليم أساسيات لغة الإشارة لموظفي الجهاز المتعاملين مع ذوي الهمم" data-en="Sign language basics training for NTRA staff who interact with people with disabilities">دورة تدريبية لتعليم أساسيات لغة الإشارة لموظفي الجهاز المتعاملين مع ذوي الهمم</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="8.jpeg" alt="Political Event" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="سياسة" data-en="Politics">سياسة</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="حزب الشعب الجمهوري" data-en="Republican People's Party Event">حزب الشعب الجمهوري</h3>
+        <p class="project-desc" data-ar="ترجمة إشارية رسمية على خشبة المسرح في فعالية حزبية سياسية رسمية" data-en="Official on-stage sign language interpretation at a formal political party event">ترجمة إشارية رسمية على خشبة المسرح في فعالية حزبية سياسية رسمية</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-img-wrap">
+        <img src="9.jpeg" alt="Digital Media" loading="lazy">
+        <div class="project-overlay"><span class="overlay-tag" data-ar="رقمي" data-en="Digital">رقمي</span></div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title" data-ar="استوديو إعلام رقمي" data-en="Digital Media Studio">استوديو إعلام رقمي</h3>
+        <p class="project-desc" data-ar="حضور في استوديو إعلام رقمي لنشر الوعي بلغة الإشارة ودور المترجمين عبر المنصات الإلكترونية" data-en="Appearance at a digital media studio to raise awareness about sign language and the role of interpreters across online platforms">حضور في استوديو إعلام رقمي لنشر الوعي بلغة الإشارة ودور المترجمين عبر المنصات الإلكترونية</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="reveal">
+    <p class="section-label" data-ar="الكفاءات" data-en="Competencies">الكفاءات</p>
+    <h2 class="section-title" data-ar="مهاراتي" data-en="My Skills">مهاراتي</h2>
+  </div>
+  <div class="skills-wrap">
+    <div class="skill-card reveal">
+      <div class="skill-icon">🤟</div>
+      <div class="skill-name" data-ar="لغة الإشارة المصرية" data-en="Egyptian Sign Language">لغة الإشارة المصرية</div>
+      <div class="skill-desc" data-ar="إتقان تام باحترافية عالية" data-en="Full mastery at a high professional level">إتقان تام باحترافية عالية</div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🎤</div>
+      <div class="skill-name" data-ar="الترجمة الفورية" data-en="Simultaneous Interpreting">الترجمة الفورية</div>
+      <div class="skill-desc" data-ar="في الفعاليات الحية والمؤتمرات والتلفزيون" data-en="At live events, conferences, and on TV">في الفعاليات الحية والمؤتمرات والتلفزيون</div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">📚</div>
+      <div class="skill-name" data-ar="التدريب والتعليم" data-en="Training & Teaching">التدريب والتعليم</div>
+      <div class="skill-desc" data-ar="تدريب الأفراد والمؤسسات على لغة الإشارة" data-en="Training individuals and institutions on sign language">تدريب الأفراد والمؤسسات على لغة الإشارة</div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🌍</div>
+      <div class="skill-name" data-ar="الترجمة الدولية" data-en="International Interpreting">الترجمة الدولية</div>
+      <div class="skill-desc" data-ar="خبرة بفعاليات خارج مصر — الإمارات وغيرها" data-en="Experience at events outside Egypt — UAE and beyond">خبرة بفعاليات خارج مصر — الإمارات وغيرها</div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">📺</div>
+      <div class="skill-name" data-ar="الحضور الإعلامي" data-en="Media Presence">الحضور الإعلامي</div>
+      <div class="skill-desc" data-ar="حضور تلفزيوني ورقمي بارز" data-en="Strong TV and digital media presence">حضور تلفزيوني ورقمي بارز</div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🏛️</div>
+      <div class="skill-name" data-ar="الفعاليات الرسمية" data-en="Official Events">الفعاليات الرسمية</div>
+      <div class="skill-desc" data-ar="ترجمة الفعاليات الحكومية والسياسية" data-en="Interpretation for governmental and political events">ترجمة الفعاليات الحكومية والسياسية</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <p class="section-label" data-ar="تواصل معي" data-en="Get In Touch">تواصل معي</p>
+    <h2 class="section-title" data-ar="تعاون معي" data-en="Work With Me">تعاون معي</h2>
+  </div>
+  <div class="contact-wrap reveal">
+    <div>
+      <h3 class="contact-headline" data-ar="هل تحتاج مترجم لغة إشارة؟" data-en="Need a Sign Language Interpreter?">هل تحتاج مترجم لغة إشارة؟</h3>
+      <p class="contact-sub" data-ar="سواء كانت فعالية، مؤتمر، برنامج تلفزيوني، دورة تدريبية، أو أي تعاون آخر — محمد شحاته جاهز لإيصال الرسالة لكل إنسان بغض النظر عن إعاقته السمعية." data-en="Whether it's an event, conference, TV program, training session, or any other collaboration — Mohamed Shahata is ready to ensure every message reaches every person, regardless of hearing ability.">
+        سواء كانت فعالية، مؤتمر، برنامج تلفزيوني، دورة تدريبية، أو أي تعاون آخر — محمد شحاته جاهز لإيصال الرسالة لكل إنسان بغض النظر عن إعاقته السمعية.
+      </p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:" class="contact-link">
+        <span class="ci">📧</span>
+        <span data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</span>
+      </a>
+      <a href="tel:+" class="contact-link">
+        <span class="ci">📞</span>
+        <span data-ar="اتصل بي" data-en="Call Me">اتصل بي</span>
+      </a>
+      <a href="#" class="contact-link">
+        <span class="ci">📘</span>
+        <span data-ar="تابعني على فيسبوك" data-en="Follow on Facebook">تابعني على فيسبوك</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p id="footerText">© 2025 محمد شحاته — مترجم لغة إشارة معتمد | صُنع بـ <span class="gold">❤️</span> من أجل مجتمع الصم</p>
+</footer>
+
+
+</body>
+
+
+<script src="main.js"></script>
+</html>
+
+
+
